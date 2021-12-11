@@ -1,0 +1,103 @@
+@font-face {
+    src: url(Montserrat-SemiBold.ttf);
+    font-family: Montserrat;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.header-item{
+    background-color: #f5f7f7;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    color: #f78e17;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+
+.text-header{
+    color: #838b8b;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.searching-div{
+    
+    background-color:#f5f7f7 ;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.searching-div label{
+    color: #838b8b;
+}
+
+.table-div{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+table{
+    white-space: normal;
+    line-height: normal;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 1300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr{
+    background-color: #f78e17;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f5f7f7;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #f78e17;
+}
+
+
+
+
+
